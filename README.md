@@ -32,6 +32,9 @@ docker stop pred-model1.0
 docker rm pred-model1.0
 docker prune
 
+docker tag <imageID> shaon2221/name&version:1.0
+docker push shaon2221/opus-face:1.0
+
 https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-windows.html
 aws configure
 eb init
