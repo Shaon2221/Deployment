@@ -39,3 +39,4 @@ https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-windows.h
 aws configure
 eb init
 eb create
+eb deploy
